@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--Importa arquivos Java Script e Css-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+    <!--Classes CSS-->
+    <style>
+        .dark1{
+            text-align: left;
+            height: 50px;
+            background: black;
+            color: rgb(255, 255, 255);
+            margin-bottom: 20px;
+        }
+        .quem-sou{
+            background: #1E2863;
+            color: aliceblue;
+        }
+        .titulo{
+            color: #1E2863;
+        }
+    </style>
+
+    <!--Titulo da Página-->
+    <title>Devison Vitorino</title>
+    
+<!--Barra de Navegação com links da página-->
+</head>
+<body>
+    <header class="custom">
+        <div class="row topo shadow-lg sticky-top">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-sm-5 text-center">
+                        <img style="width: 250px;" src="images/logotipo.png" class="text-center mt-3 mb-3" alt="logo">
+                    </div>
+                    <div class="col-sm-7">
+                        <!--Links que redirecionam pela página-->
+                        <nav class="navbar navbar-litgh custom justify-content-center mt-4">
+                            <a class="nav-link" href="#">HOME</a>
+                            <a class="nav-link"  href="#linguagem">PYTHON</a>
+                            <a class="nav-link"  href="#linguagem">JAVASCRIPT</a>
+                            <a class="nav-link"  href="#linguagem">CSS</a>  
+                            <a class="nav-item"  href="#linguagem">HTML</a>  
+                            <a class="nav-link" href="#quemsou">QUEM SOU</a>  
+                            <a class="btn btn-success rounded-pill" href="#contato">CONTATO</a>
+                        </nav>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </header>
+
+    <!--Seção SOBRE com imagem de logo, contém link redirecionando para facebook-->
+    <section>
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-sm-6 order-2 order-sm-2">
+                    <img src="images/logo.front.jpg" style="width: 350px; height: 350px;" class="img text-center" alt="foto-logo">
+                </div>
+                <div class="col-sm-6 order-2 order-sm-2  align-self-center">
+                    <h1 class="imagem">Deivison Jr Vitorino</h1>
+                    <p>Mineiro do Sul de Minas (Alfenas) casado, 2 filhos, residente em Mogi Guaçu SP a 14 anos. Conheci a área de tecnologia em 2014 no segmento de telecomunicação. Cursando atualmente
+                         DESENVOLVEDOR FULL STACK JS... </p>
+                    <a target="_blank" href="https://www.facebook.com/deivison.vitorino.39/" class="btn btn-primary mt-2 rounded-pill btn-lg">Saiba Mais...</a>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <!--Container com 4 colunas de tamanho 3 destacando liguagens. Contém link para as documentações-->
+    <section>   
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="imagem text-center mt-4" id="linguagem">MINHAS LINGUAGENS DE PROGRAMAÇÃO</h3>
+                </div>
+                <div class="col-3 col sm-3 text-center mt-5">
+                    <img src="images/python-logo-2.png" style="width: 70px; height: 70px;" class="d-block mx-auto" alt="python">
+                    <h4 class="imagem">PYTHON</h4>
+                    <p>Python é uma linguagem de programação que permite trabalhar rapidamente
+                        e integrar os sistemas de forma mais eficaz..</p>
+                    <a class="btn btn-primary rounded-pill mt-4" target="_blank" href="https://www.python.org/">Saiba Mais</a>
+                </div>
+                <div class="col-3 col sm-3 text-center mt-5">
+                    <img src="images/JavaScript-logo.png" style="width: 70px; height: 70px;" class="class=d-block mx-auto" alt="javascript">
+                    <h4 class="imagem">JAVASCRIPT</h4>
+                    <p>JavaScript (frequentemente abreviado como JS) é uma linguagem de programação interpretada estruturada...</p>
+                    <a class="btn btn-primary rounded-pill mt-4" target="_blank" href="https://pt.wikipedia.org/wiki/JavaScript">Saiba Mais</a>
+                </div>
+                <div class="col-3 col sm-3 text-center mt-5">
+                    <img src="images/logo-css-3-2048.png" style="width: 70px; height: 70px;" class="d-block mx-auto" alt="css">
+                    <h4 class="imagem">CSS</h4>
+                    <p>CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos em uma...</p>
+                    <a class="btn btn-primary rounded-pill mt-4" target="_blank" href="https://devdocs.io/css/">Saiba Mais</a>
+                </div>
+                <div class="col-3 col sm-3 text-center mt-5">
+                    <img src="images/html-coin-html-logo.png" style="width: 70px; height: 70px;" class="d-block mx-auto" alt="html">
+                    <h4 class="imagem">HTML</h4>
+                    <p>Criada pelo britânico Tim Berners-Lee, o acrônimo HTML significa HiperText Markup Language, traduzindo ao português:...</p>
+                    <a class="btn btn-primary rounded-pill mt-4" target="_blank" href="https://devdocs.io/html/">Saiba Mais</a>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <!--Seção quem sou com link que redireciona para likedin-->
+    <section class="img">
+        <div class="container mt-5" id="quemsou">
+            <div class="row">
+                <div class="col-12 col-sm-5 align-self-center banner">
+                    <p class="h1" >Quem Sou?</p>
+                    <p>Olá, sou Deivison tenho 32 anos mineirinho paulista!. Movido a desafios e incentivado por conquista...</p>
+                    <p></p>
+                    <a target="_blank" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" class="btn btn-primary mt-2 rounded-pill btn-lg">Saiba Mais..</a>
+                </div>   
+                <div class="col-12 col-sm-7">
+                    <img src="images/logo.front2.png" style="width: 400px; height: 400px;" class="d-block imagem mx-auto mt-5" alt="logo 2">
+                </div>       
+            </div>
+        </div>
+    </section>
+
+    <!--Titulo-->
+    <section>
+        <div class="container mt-5 mb-5">
+            <div class="row text-center">
+                <div class="col-12">
+                    <p class="h3 imagem">Onde Estudo</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Seção com destaque para as escolas contendo link que redireciona para site das instituições-->
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-12 col-sm-6 text-center">
+                    <div class="card">
+                        <img style="width: 200px; height: 200px;" src="images/logo.soitech.jpg" class="card-img-top" alt="soitech">
+                        <div class="card-body">
+                            <h5 class="card-title mt-5 imagem">SOITECH</h5>
+                            <p class="card-text mt-3">FORMAÇÃO COMPLETA +EMPREGO GARANTIDO. Sua carreira em tecnologia começa aqui e agora!</p>
+                            <a class="btn btn-primary rounded-pill" target="_blank" href="https://soitech.com.br/">Conheça...</a>
+                        </div>
+                    </div>
+                </div>
+  
+                <!--Seção com destaque para as escolas contendo link que redireciona para site das instituições-->
+                <div class="col-12 col-sm-6 text-center">
+                    <div class="card">
+                        <img  style="width: 200px; height: 200px;" src="images/logo_hashtag.png" class="card-img-top" alt="hashtag">
+                        <div class="card-body">
+                            <h5 class="card-title mt-5 imagem">HASHTAG TREINAMENTOS</h5>
+                            <p class="card-text mt-3">Torne-se uma referência no Mercado de Trabalho com a Hashtag Treinamentos.Aprenda tudo de Excel, Power BI, Python e SQL</p>
+                            <a class="btn btn-primary rounded-pill" target="_blank" href="https://www.hashtagtreinamentos.com/">Conheça...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Seção com banner contendo link que redireciona para os portifólios no GITHUB-->
+    <section>
+        <div class="container mt-5 mb-5">
+            <div class="row text-center">
+                <div class="col-12">
+                    <p class="h3 dark titulo"> Clique no banner e conheça meus</p>
+                    <h3 class="dark titulo">PRIMEIROS PROJETOS</h3>
+                </div>
+            </div>
+        </div>
+
+        <!--Banners-->
+        <div class="container carousel carousel-dark carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner mt-5">
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-12 col-sm-3">
+                            <a target="_blank" href="https://github.com/Mineiroprogran">
+                                <img src="images/logotipo.png" style="width: 250px;" class="img text-center" alt="foto-logo">
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-3">
+                            <a target="_blank" href="https://github.com/Mineiroprogran">
+                                <img src="images/logotipo.png" style="width: 250px;" class="img text-center" alt="foto-logo">
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-3">
+                            <a target="_blank" href="https://github.com/Mineiroprogran">
+                                <img src="images/logotipo.png" style="width: 250px;" class="img text-center" alt="foto-logo">
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-3">
+                            <a target="_blank" href="https://github.com/Mineiroprogran">
+                                <img src="images/logotipo.png" style="width: 250px;" class="img text-center" alt="foto-logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Banners-->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-12 col-sm-3">
+                            <a target="_blank" href="https://github.com/Mineiroprogran">
+                                <img src="images/logotipo2.png" style="width: 250px;" class="img text-center" alt="foto-logo">
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-3">
+                            <a target="_blank" href="https://github.com/Mineiroprogran">
+                                <img src="images/logotipo2.png" style="width: 250px;" class="img text-center" alt="foto-logo">
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-3">
+                            <a target="_blank" href="https://github.com/Mineiroprogran">
+                                <img src="images/logotipo2.png" style="width: 250px;" class="img text-center" alt="foto-logo">
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-3">
+                            <a target="_blank" href="https://github.com/Mineiroprogran">
+                                <img src="images/logotipo2.png" style="width: 250px;" class="img text-center" alt="foto-logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Rodapé-->
+        <footer class="quem-somos text-center">
+            <div class="container-fluid img">
+                <div class="row">
+                    <div class="col-12 col-sm-3 mt-5 mb-5">
+                        <img class="d-block w-100" src="images/lgrodape2.png" alt="logo">
+                        <h4 class="mt-3">Endereço</h4>
+                        <p>R Angelo Rossi 275 Casa 46 Côndomínio Pantanal 1/Mogi Guaçu/SP</p>
+                        <p id="contato">Telefone: (19) 99804-9048</p>
+                        <a class="nav-link" href="#">HOME</a>
+                    </div>
+
+                    <!--Redirecionando para sites das escolas-->
+                    <div class="col-12 col-sm-3 mt-5 mb-5">
+                        <h4>Escolas</h4>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" target="_blank" href="https://soitech.com.br/">SOITECH</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" target="_blank" href="https://www.hashtagtreinamentos.com/">HASHTAG</a>
+                            </li> 
+                        </ul>
+                    </div>
+
+                    <!--Link para GITHUB-->
+                    <div class="col-12 col-sm-3 mt-5 mb-5">
+                        <h4>PROJETOS</h4>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" target="_blank" href="https://github.com/Mineiroprogran">GITHUB</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--E-mail de contato-->
+                    <div class="col-12 col-sm-3 mt-5 mb-5">
+                        <h5>E-MAIL</h5>
+                        <h6>deivisonjrvitorino@gmail.com</h6>
+                    </div>
+
+                    <!--Crédtos-->
+                    <div class="row text-center">
+                        <p>Desenvolvido Por @DeivisonVitorino</p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    
+</body>
+</html>
